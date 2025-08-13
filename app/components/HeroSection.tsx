@@ -1,18 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 export const HeroSection = () => {
 	return (
-		<div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-
-			{/* Animated Background Grid */}
-			<div className="absolute inset-0 grid-background-dark opacity-10 dark:grid-background dark:opacity-20">
-				<div className="grid-overlay animate-pulse-slow"></div>
-			</div>
+		<div className="relative z-0 min-h-screen flex items-center justify-center overflow-hidden">
 
 			{/* Floating Tech Icons */}
 
 			{/* Hero Content */}
-			<div className="relative z-10 max-w-5xl mx-auto px-4">
+			<div className="relative z-[10000] max-w-5xl mx-auto px-4">
 				<div className="text-center space-y-6">
 					{/* Name Section */}
 					<div className="relative inline-block px-4 sm:px-0">
@@ -99,7 +94,7 @@ export const HeroSection = () => {
                         <a
                             href="/resume.pdf"
                             target="_blank"
-                            className="inline-flex items-center gap-2 px-4 py-2 bg-white dark:bg-[#21262D] border border-gray-300 dark:border-gray-700 text-sm sm:text-base text-gray-700 dark:text-white rounded-md font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                            className="inline-flex items-center gap-2 px-4 py-2 bg-white dark:bg-[#21262D] border border-gray-300 dark:border-gray-700 text-sm sm:text-base text-gray-700 dark:text-white rounded-md font-medium hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
                         >
                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                                 <path
@@ -116,7 +111,7 @@ export const HeroSection = () => {
 			</div>
 
 			{/* Scroll Indicator */}
-			<div className="absolute bottom-8 inset-x-0 flex flex-col items-center animate-bounce">
+			<div className="absolute bottom-8 inset-x-0 flex flex-col items-center animate-bounce z-10">
 				<span className="text-gray-600 dark:text-gray-400 text-sm mb-2 text-center">Scroll to explore</span>
 				<svg className="w-6 h-6 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
