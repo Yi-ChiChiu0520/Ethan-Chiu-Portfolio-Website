@@ -9,6 +9,23 @@ export const ProjectsSection = () => {
 				<div className="space-y-8 sm:space-y-12">
 					{[
 						{
+							title: 'Syllabus RAG Assistant',
+							description: 'AI-powered academic assistant that answers questions about course syllabi with instant, accurate responses from uploaded materials.',
+							metrics: {
+								accuracy: 95,
+								speed: 98,
+								relevance: 94,
+							},
+							techDetails: [
+								'OpenAI GPT-4o with RAG (Retrieval-Augmented Generation)',
+								'FastAPI backend with document processing pipeline',
+								'ChromaDB vector database for semantic search',
+								'Next.js frontend with real-time chat interface',
+							],
+							image: '/syllabus-rag-assistant-preview.png',
+							link: 'https://syllabus-rag-assistant.vercel.app/',
+						},
+						{
 							title: 'Calendar AI Agent',
 							description: 'Natural language scheduling assistant powered by LLMs and Google Calendar integration.',
 							metrics: {
@@ -22,7 +39,7 @@ export const ProjectsSection = () => {
 								'JWT auth & CORS-secured API',
 								'React + Tailwind frontend deployed on Vercel',
 							],
-							image: '/calendar-ai-preview.png', // Replace this with your actual screenshot path
+							image: '/calendar-ai-preview.png',
 							link: 'https://calendar-ai-agent-web-app.vercel.app',
 						},
 					].map((project) => (
