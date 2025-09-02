@@ -92,7 +92,7 @@ export const HeroSection = () => {
 
                         {/* Resume */}
                         <a
-                            href="/resume.pdf"
+                            href="/Ethan_Chiu_Resume.pdf"
                             target="_blank"
                             className="inline-flex items-center gap-2 px-4 py-2 bg-white dark:bg-[#21262D] border border-gray-300 dark:border-gray-700 text-sm sm:text-base text-gray-700 dark:text-white rounded-md font-medium hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
                         >
