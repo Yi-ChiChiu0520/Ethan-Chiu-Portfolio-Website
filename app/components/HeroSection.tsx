@@ -9,6 +9,18 @@ export const HeroSection = () => {
 			{/* Hero Content */}
 			<div className="relative z-[10000] max-w-5xl mx-auto px-4">
 				<div className="text-center space-y-6">
+					{/* Headshot */}
+					<div className="flex justify-center mb-8">
+						<div className="relative">
+							<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-lg opacity-75"></div>
+							<img
+								src="/Ethan_Chiu_Headshot.jpg"
+								alt="Ethan Chiu"
+								className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
+							/>
+						</div>
+					</div>
+
 					{/* Name Section */}
 					<div className="relative inline-block px-4 sm:px-0">
 						<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl blur-xl opacity-75"></div>
