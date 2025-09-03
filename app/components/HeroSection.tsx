@@ -14,7 +14,7 @@ export const HeroSection = () => {
 						<div className="relative">
 							<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-lg opacity-75"></div>
 							<img
-								src="/Ethan_Chiu_Headshot.jpg"
+								src="/Ethan_Chiu_Headshot.JPG"
 								alt="Ethan Chiu"
 								className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
 							/>
