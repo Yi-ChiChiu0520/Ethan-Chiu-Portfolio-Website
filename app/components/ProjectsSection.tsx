@@ -8,41 +8,58 @@ export const ProjectsSection = () => {
 				<h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center text-gray-900 dark:text-white">Featured Projects</h2>
 				<div className="space-y-8 sm:space-y-12">
 					{[
-						{
-							title: 'Syllabus RAG Assistant',
-							description: 'AI-powered academic assistant that answers questions about course syllabi with instant, accurate responses from uploaded materials.',
-							metrics: {
-								accuracy: 95,
-								speed: 98,
-								relevance: 94,
-							},
-							techDetails: [
-								'OpenAI GPT-4o with RAG (Retrieval-Augmented Generation)',
-								'FastAPI backend with document processing pipeline',
-								'ChromaDB vector database for semantic search',
-								'Next.js frontend with real-time chat interface',
-							],
-							image: '/syllabus-rag-assistant-preview.png',
-							link: 'https://syllabus-rag-assistant.vercel.app/',
-						},
-						{
-							title: 'Calendar AI Agent',
-							description: 'Natural language scheduling assistant powered by LLMs and Google Calendar integration.',
-							metrics: {
-								performance: 96,
-								accessibility: 100,
-								seo: 100,
-							},
-							techDetails: [
-								'FastAPI backend with OpenAI GPT-4o',
-								'Google Calendar + Email integration',
-								'JWT auth & CORS-secured API',
-								'React + Tailwind frontend deployed on Vercel',
-							],
-							image: '/calendar-ai-preview.png',
-							link: 'https://calendar-ai-agent-web-app.vercel.app',
-						},
-					].map((project) => (
+                        {
+                            title: 'Syllabus RAG Assistant',
+                            description: 'AI-powered academic assistant that answers questions about course syllabi with instant, accurate responses from uploaded materials.',
+                            metrics: {
+                                accuracy: 95,
+                                speed: 98,
+                                relevance: 94,
+                            },
+                            techDetails: [
+                                'OpenAI GPT-4o with RAG (Retrieval-Augmented Generation)',
+                                'FastAPI backend with document processing pipeline',
+                                'ChromaDB vector database for semantic search',
+                                'Next.js frontend with real-time chat interface',
+                            ],
+                            image: '/syllabus-rag-assistant-preview.png',
+                            link: 'https://syllabus-rag-assistant.vercel.app/',
+                        },
+                        {
+                            title: 'Calendar AI Agent',
+                            description: 'Natural language scheduling assistant powered by LLMs and Google Calendar integration.',
+                            metrics: {
+                                performance: 96,
+                                accessibility: 100,
+                                seo: 100,
+                            },
+                            techDetails: [
+                                'FastAPI backend with OpenAI GPT-4o',
+                                'Google Calendar + Email integration',
+                                'JWT auth & CORS-secured API',
+                                'React + Tailwind frontend deployed on Vercel',
+                            ],
+                            image: '/calendar-ai-preview.png',
+                            link: 'https://calendar-ai-agent-web-app.vercel.app',
+                        },
+                        {
+                            title: 'BudgetBee – iOS Budget Tracker',
+                            description: 'A personal finance mobile app that allows users to log, categorize, and visualize income and expenses using SwiftUI and Charts.',
+                            metrics: {
+                                reliability: 97,
+                                sync: 99,
+                                usability: 95,
+                            },
+                            techDetails: [
+                                'SwiftUI + MVVM architecture',
+                                'Real-time syncing with Firebase Firestore',
+                                'Interactive bar and pie charts via Apple Charts',
+                                'Optimized mobile UI for iOS devices',
+                            ],
+                            image: '/BudgetBee_Home.png', // Replace with the correct path to your BudgetBee screenshot
+                            link: 'https://github.com/Yi-ChiChiu0520/BudgetBee', // Replace with actual GitHub or App Store link
+                        },
+                    ].map((project) => (
 						<a
 							key={project.title}
 							href={project.link}
