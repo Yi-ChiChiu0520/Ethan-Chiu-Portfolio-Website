@@ -19,7 +19,7 @@ export const HeroSection = () => {
                         <img
                           src="/Yi_Chi_Chiu_Profile_1-Final.jpg"
                           alt="Ethan Chiu"
-                          className="relative z-10 w-48 h-48 sm:w-56 sm:h-56 md:w-80 md:h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
+						  className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
                         />
                       </div>
                     </div>
