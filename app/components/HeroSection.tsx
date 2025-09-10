@@ -11,15 +11,18 @@ export const HeroSection = () => {
 				<div className="text-center space-y-6">
 					{/* Headshot */}
 					<div className="flex justify-center mb-8">
-						<div className="relative">
-							<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-lg opacity-75"></div>
-							<img
-								src="/Yi_Chi_Chiu_Profile_1.jpg"
-								alt="Ethan Chiu"
-								className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
-							/>
-						</div>
-					</div>
+                      <div className="relative">
+                        {/* Glow background */}
+                        <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-lg opacity-75 z-0"></div>
+
+                        {/* Profile image */}
+                        <img
+                          src="/Yi_Chi_Chiu_Profile_1-Final.jpg"
+                          alt="Ethan Chiu"
+                          className="relative z-10 w-48 h-48 sm:w-56 sm:h-56 md:w-80 md:h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
+                        />
+                      </div>
+                    </div>
 
 					{/* Name Section */}
 					<div className="relative inline-block px-4 sm:px-0">
